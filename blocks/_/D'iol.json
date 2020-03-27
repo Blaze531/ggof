@@ -1,0 +1,14 @@
+{
+"name": "D'iol",
+"description": "Восскская броня по праву считается лучшей в известной нам части вселенной и ни одна раса не смогла её воссоздать. D'iol всё чаще применяется инженерами флота Землян.",
+"type": "Wall",
+"health": "6750",
+"size": "2",
+"requirements": [
+{"item": "plastanium", "amount": "12"},
+{"item": "Оричалзин", "amount": "12"}
+{"item": "Запчасти", "amount": "12"}
+],
+"category": "defense"
+"research" : "E6_D-X_Plating" 
+}

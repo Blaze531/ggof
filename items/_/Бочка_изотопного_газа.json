@@ -1,0 +1,12 @@
+{
+"type": "material",
+"name": "Бочка изотопного газа",
+"description": "Требуется для того, чтобы поставлять изотопный газ в типе патрона",
+"color": "#8cadff",
+"radioactivity": 3,
+"explosiveness": 0,
+"flammability": 0,
+"hardness": "10",
+"cost": 10,
+"alwaysUnlocked": false
+}

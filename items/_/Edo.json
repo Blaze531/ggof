@@ -1,0 +1,12 @@
+{
+"type": "material",
+"name": "Edo",
+"description": "Самонаводящиеся ракеты следуют системе следоуказания до столкновения или до исчерпания запаса топлива. Edo сопоставима по урону с неуправляемой ракетой Jet, только немного медленнее.",
+"color": "#ff0000",
+"radioactivity": 0,
+"explosiveness": 0.75,
+"flammability": 0,
+"hardness": "10",
+"cost": 1,
+"alwaysUnlocked": false
+}

@@ -1,0 +1,12 @@
+{
+"type": "material",
+"name": "Patala",
+"description": "После запуска Patala, целая куча мелких ракет летят к цели и детонируют с огромной силой. Любой, кто выжил после этого букета ракет согласится, что эта ракета-связка одновременно эффективна и опасна.",
+"color": "#ff0000",
+"radioactivity": 0,
+"explosiveness": 1,
+"flammability": 0,
+"hardness": "10",
+"cost": 1,
+"alwaysUnlocked": false
+}

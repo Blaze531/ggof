@@ -1,0 +1,24 @@
+{
+"type": "GenericSmelter",
+"name": "Компрессор железа",
+"description": "Сжимает железо под огромным давлением, чтобы произвести искусственное железное ядро. ",
+"health": 400,
+"itemCapacity": 10,
+"outputItem": {"item": "Железное_ядро", "amount": 1},
+"size": 2,
+"hasPower": true,
+"hasLiquids": false,
+"hasItems": true,
+"craftTime": 160,
+"updateEffect": "smoke",
+"consumes": {"power": 1.35, "items": 
+{"items": [
+{ "item": "Железо", "amount": 10 }]}} ,
+"requirements": [
+{ "item": "titanium", "amount": 75}
+{ "item": "copper", "amount": 75}
+{ "item": "silicon", "amount": 45 },
+{ "item": "Электроника", "amount": 25 }],
+"category": "crafting",
+"research" : "Распределитель_руды2" 
+}

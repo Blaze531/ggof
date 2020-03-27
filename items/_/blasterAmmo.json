@@ -1,0 +1,12 @@
+{
+"type": "resource",
+"name": "BlasterAmmo",
+"description": "Ammo for blasters",
+"color": "#8b00ff",
+"radioactivity": 0,
+"explosiveness": 5,
+"flammability": 0,
+"hardness": "10",
+"cost": 5,
+"alwaysUnlocked": false
+}

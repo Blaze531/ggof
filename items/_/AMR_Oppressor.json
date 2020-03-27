@@ -1,0 +1,12 @@
+{
+"type": "material",
+"name": "AMR Oppressor",
+"description": "Бомба AMR Oppressor может нанести разрушительный урон. Выпустите её возле станции, и стаканы в зале ожидания разлетятся вдребезги (но тогда не стоит рассчитывать на то, что вам предложат коктейль по прилёту).",
+"color": "#ff0000",
+"radioactivity": 1,
+"explosiveness": 2.5,
+"flammability": 0,
+"hardness": "10",
+"cost": 1,
+"alwaysUnlocked": false
+}

@@ -1,0 +1,38 @@
+{
+"type": "ItemTurret",
+"name": "Gram",
+"description": "За появлением на рынке удивительной серии орудий Hervarar стоят инженеры землян. Бластер Gram смертелен, прост в управлении и выглядит чертовски круто.",
+"targetAir": true,
+"targetGround": true,
+"health": 800,
+"size": 2,
+"inaccuracy": 25,
+"reload": 25,
+"shots": 1,
+"range": 240,
+"burstSpacing": 10,
+"ammo": {
+"blasterAmmo": {
+"speed": 6,
+"damage": 160,
+"splashDamage" : 30,
+"splashDamageRadius" : 20,
+"bulletWidth": 8,
+"bulletHeight": 8,
+"shootEffect": "shootSmall",
+"smokeEffect": "none",
+"ammoMultiplier": 5
+"frontColor" : "#74abd6" 
+"backColor" : "#74abd6" 
+"lifetime" : 90,
+},},
+"requirements": [
+{ "item": "titanium", "amount": 100},
+{ "item": "silicon", "amount": 80},
+{ "item": "Электроника", "amount": 65}
+{ "item": "Запчасти", "amount": 40}
+],
+"category": "turret",
+"shootSound": ""
+"research": "Sh'gaal"
+}

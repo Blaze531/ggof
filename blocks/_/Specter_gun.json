@@ -1,0 +1,40 @@
+{
+"type": "ItemTurret",
+"name": "Specter Gun",
+"description": "Да, в игре такого главного оружия нет, но в моде есть! Корабль Specter модернизированный под  турель",
+"targetAir": true,
+"targetGround": true,
+"health": 26000,
+"size": 4,
+"inaccuracy": 5,
+"reload": 0.5,
+"shots": 1,
+"range": 750,
+"burstSpacing": 10,
+"ammo": {
+"Нованиум": {
+"speed": 6,
+"damage": 2500,
+"splashDamage" : 30,
+"splashDamageRadius" : 20,
+"bulletWidth": 8,
+"bulletHeight": 8,
+"shootEffect": "shootSmall",
+"smokeEffect": "none",
+"ammoMultiplier": 5
+"frontColor" : "#4aa0d9" 
+"backColor" : "#4aa0d9" 
+"lifetime" : 300,
+},},
+"requirements": [
+{ "item": "titanium", "amount": 999},
+{ "item": "thorium", "amount": 900},
+{ "item": "Оричалзин", "amount": 800},
+{ "item": "surge-alloy", "amount": 550},
+{ "item": "Титановое_ядро", "amount": 65}
+{ "item": "Нованиумное_ядро", "amount": 40}
+],
+"category": "turret",
+"shootSound": ""
+"research" : "Лазер_Енот" 
+}

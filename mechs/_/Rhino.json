@@ -1,0 +1,32 @@
+{
+	"name": "Rhino",
+	"description": "Земляне чаще всего используют Rhino для переброски пехоты из одной звездной системы в другую. Несмотря на низкую маневренность, Rhino пользуется популярностью у торговцев благодаря огромному грузовому отсеку, также имеет прочную броню как у  грузовых кораблей воссков, которую не так то просто повредить.",
+	"speed": 0.6,
+"drawCell": false,
+"engineOffset": 10
+	"buildPower": 1.5,
+	"engineColor": "666495",
+	"flying": true,
+	"health": 6500,
+   "itemCapacity" : 1200
+   "boostSpeed" : 1.5 
+"weaponOffsetX": 1,
+	"weaponOffsetY": 1,
+	"weapon": {
+		"name": "Rhino",
+		"length": 5
+		"reload": 600,
+		"alternate": true,
+		"bullet": {
+			"speed": 1,
+			"damage": 1,
+			"bulletWidth": 10,
+			"bulletHeight": 15,
+			"frontColor": "#2878e8",
+			"backColor": "#2878e8", 
+			"shootEffect": "shootBig"
+			"bullet": "meltdownLaser",
+			"despawnEffect": "none"
+		}
+	}
+}

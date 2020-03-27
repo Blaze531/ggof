@@ -1,0 +1,21 @@
+{
+  "name": "Ketar mk2",
+  "description": "Прорыв в исследованиях искусственного интеллекта позволил роботам испытывать любовь. Этот ремонтный бот запрограммирован 'влюбиться' в корабль-носитель, что в разы увеличивает его заботу и эффективность при выполнении задач содержания и обслуживания.",
+  "type": "mendProjector",
+  "health": 700,
+  "size": 2,
+  "reload" : 45,
+  "range" : 320,
+  "healPercent" : 6, 
+  "phaseBoost" : 0,
+  "phaseRangeBoost" : 0,
+  "consumes" : {"power" : 4.15}
+  "requirements": [
+        { "item": "titanium", "amount": 70 },
+	      { "item": "silicon", "amount": 40 },
+        { "item": "Титановое_ядро", "amount": 30 }
+        { "item": "Нованиум", "amount": 30 }
+	],
+  "category": "effect",
+"research" : "mend-projector" 
+}

@@ -1,0 +1,13 @@
+{
+"name": "E4 Ultra Lamina",
+"description": "Эти пластины для пилотов, которые ищут максимальную защиту, которую можно купить. Актуально для большинства боевых ситуаций.",
+"type": "Wall",
+"health": "3350",
+"size": "2",
+"requirements": [
+{"item": "Оричалзин", "amount": "16"},
+{"item": "titanium", "amount": "8"}
+],
+"category": "defense"
+"research" : "E2_Exoclad" 
+}

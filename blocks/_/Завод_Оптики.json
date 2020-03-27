@@ -1,0 +1,24 @@
+{
+"type": "GenericSmelter",
+"name": "Завод Оптики",
+"description": "Производит оптику",
+"health": 400,
+"itemCapacity": 30,
+"outputItem": {"item": "Оптика", "amount": 1},
+"size": 2,
+"hasPower": true,
+"hasLiquids": false,
+"hasItems": true,
+"craftTime": 71,
+"updateEffect": "smoke",
+"consumes": {"power": 1.2, "items": 
+{"items": [
+{ "item": "metaglass", "amount": 1 }
+{ "item": "Гипаний", "amount": 1 }]}} ,
+"requirements": [
+{ "item": "Железо", "amount": 105 },
+{ "item": "silicon", "amount": 90 },
+{ "item": "metaglass", "amount": 40 }],
+"category": "crafting",
+"research" : "kiln" 
+}

@@ -1,0 +1,36 @@
+{
+"type": "ItemTurret",
+"name": "Thermic o5",
+"description": "Термические орудия - писк моды. Некоторые описывают их как хлопушки с конфетти, другие клянутся, что не покидают станции без них... o5 - базовая модель, так что любой, кого интересует термическое оружие, сможет оценить, справится ли он с их мощью.",
+"targetAir": true,
+"targetGround": true,
+"health": 450,
+"size": 2,
+"inaccuracy": 1,
+"reload": 60,
+"shots": 1,
+"range": 200,
+"burstSpacing": 10,
+"ammo": {
+"Бочка_изотопного_газа" : {
+"speed": 3,
+"damage": 90,
+"bulletWidth": 8,
+"bulletHeight": 300,
+"shootEffect": "shootSmall",
+"smokeEffect": "none",
+"ammoMultiplier": 1
+"frontColor" : "#ffa000" 
+"backColor" : "#ffa000" 
+"lifetime" : 100, 
+},},
+"requirements": [
+{ "item": "titanium", "amount": 80},
+{ "item": "Железо", "amount": 55},
+{ "item": "Электроника", "amount": 35}
+{ "item": "Оричалзин", "amount": 10}
+],
+"category": "turret",
+"shootSound": ""
+"research": "duo"
+}

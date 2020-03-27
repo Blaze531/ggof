@@ -1,0 +1,27 @@
+{
+	"type": "powerTurret",
+	"name": "Дизентегратор",
+	"description": "Высокую эффективность Дезинтегратора можно соотнести с применением искусственно выращенных кристаллов, имеющих высокую оптическую плотность. Дорогостоящие линзы призваны фокусировать волны длиной 438.511нм, что соответствует резонансной частоте современных энергетических щитов, что, в свою очередь, дестабилизирует их.",
+	"targetAir": true,
+	"targetGround": true,
+	"health": 1300,
+	"size": 3,
+	"inaccuracy": 0,
+	"reload": 45,
+	"shootCone": 150,
+	"shots": 15,
+	"range": 220,
+    "burstSpacing": 1,
+    "shootType": "lancerLaser",
+	"requirements": [
+		{ "item": "titanium", "amount": 490 },
+		{ "item": "thorium", "amount": 450 },
+		{ "item": "surge-alloy", "amount": 325 }, 
+    { "item": "Электроника", "amount": 250 } 
+    { "item": "Золото", "amount": 55 } 
+    { "item": "Оричалзин", "amount": 40 } 
+	],
+	"category": "turret"
+	"shootSound": "laser"
+	"research": "Пушка_Scram"
+}

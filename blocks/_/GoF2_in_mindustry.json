@@ -1,0 +1,12 @@
+{
+	"name": "Galaxy on Fire 2 in mindustry",
+  "description": "oh yes",
+  "type": "wall",
+  "health": 10000,
+  "size": 2,
+  "requirements": [
+	      { "item": "Золото", "amount": 10 }
+	],
+  "category": "effect",
+  "research": "core-shard"
+}

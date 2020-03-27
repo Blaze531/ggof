@@ -1,0 +1,6 @@
+{
+"name": "Гипаниевая руда",
+"type": "OreBlock",
+"itemDrop": "Гипаний",
+"oreDefault": true
+}

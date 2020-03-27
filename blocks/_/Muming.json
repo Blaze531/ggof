@@ -1,0 +1,39 @@
+{
+"type": "ItemTurret",
+"name": "Muming",
+"description": "Последнее дополнение к серии бластеров Herevar - в одинаковой мере опасное, эффектное и дорогое.",
+"targetAir": true,
+"targetGround": true,
+"health": 2100,
+"size": 3,
+"inaccuracy": 0,
+"reload": 25,
+"shots": 1,
+"range": 240,
+"burstSpacing": 10,
+"ammo": {
+"blasterAmmo": {
+"speed": 6,
+"damage": 650,
+"splashDamage" : 350,
+"splashDamageRadius" : 20,
+"bulletWidth": 8,
+"bulletHeight": 8,
+"shootEffect": "shootSmall",
+"smokeEffect": "none",
+"ammoMultiplier": 5
+"frontColor" : "#e44aff" 
+"backColor" : "#e44aff" 
+"lifetime" : 90,
+},},
+"requirements": [
+{ "item": "titanium", "amount": 310},
+{ "item": "silicon", "amount": 200},
+{ "item": "surge-alloy", "amount": 130},
+{ "item": "Нованиум", "amount": 80}
+{ "item": "Титановое_ядро", "amount": 50}
+],
+"category": "turret",
+"shootSound": ""
+"research": "Gramm"
+}

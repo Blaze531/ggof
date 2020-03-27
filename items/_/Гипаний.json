@@ -1,0 +1,12 @@
+{
+"type": "material",
+"name": "Гипаний",
+"description": "Серебристо-белая руда, в основном встречающаяся на территории Землян. Используется для изготовления продвинутой техники. ",
+"color": "#000000",
+"radioactivity": 0.075,
+"explosiveness": 0,
+"flammability": 0,
+"hardness": "5",
+"cost": 1.1,
+"alwaysUnlocked": false
+}

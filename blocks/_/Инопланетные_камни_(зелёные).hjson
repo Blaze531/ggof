@@ -1,0 +1,5 @@
+type: floor
+name:  Инопланетные камни (зелёные) 
+variants: 3
+playerUnmineable: true
+speedMultiplier : 1

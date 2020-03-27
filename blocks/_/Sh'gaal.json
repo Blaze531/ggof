@@ -1,0 +1,38 @@
+{
+"type": "ItemTurret",
+"name": "Sh'gaal",
+"description": "Sh'gaal означает шрам и относится к тому, с чем рождается каждый истинный Восск. Это название пошло от известного воина по имени Zrrot Grykk, который был сослан на Narsaxa. Ему удалось вернуть расположение их лидера, которое он потерял из-за неуместного выпада.",
+"targetAir": true,
+"targetGround": true,
+"health": 470,
+"size": 1,
+"inaccuracy": 25,
+"reload": 10,
+"shots": 1,
+"range": 135,
+"powerUse" : 0.4
+"burstSpacing": 10,
+"ammo": {
+"blasterAmmo": {
+"speed": 6,
+"damage": 50,
+"splashDamage" : 25,
+"splashDamageRadius" : 12
+"bulletWidth": 8,
+"bulletHeight": 8,
+"shootEffect": "shootSmall",
+"smokeEffect": "none",
+"ammoMultiplier": 5
+"frontColor" : "#74abd6" 
+"backColor" : "#74abd6" 
+"lifetime" : 90,
+},},
+"requirements": [
+{ "item": "titanium", "amount": 25},
+{ "item": "Электроника", "amount": 15},
+{ "item": "Железо", "amount": 15},
+],
+"category": "turret",
+"shootSound": ""
+"research": "N'saan"
+}

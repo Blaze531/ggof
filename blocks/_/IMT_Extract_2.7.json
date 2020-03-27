@@ -1,0 +1,30 @@
+{
+"type": "drill"
+"name": "IMT Extract 2.7" 
+"health" : 780, 
+"size": 3, 
+"description": "Обновлённая модель бурильного лазера Extract 1.3 сводится лишь к обновлению прошивки, хотя компания заломила цену, как за новый агрегат. Так как альтернатив практически нет, версия 2.7 стала очень распространённой и позднее стала стандартом индустрии бурения."
+"tier" : "4"
+"drillTime" : 240
+"liqiudsBoostIntensivity" : 1.7
+"itemCapacity" : 10
+"warmupSpeed" : 0.1
+"drillEffect" : "smoke" 
+"rotateSpeed" : 3
+"craftTime": 129
+"requirements" :[
+{"item" : "Железо", "amount" : 90} 
+{"item" : "Золото", "amount" : 75} 
+{"item" : "silicon", "amount" : 55}
+{"item" : "titanium", "amount" : 45} 
+] 
+"consumes": {"power": 0.6, 
+"liquid": {
+			"liquid": "water", 
+			"amount": 0.1,
+			"booster": true
+       "optional" : true
+		}} ,
+"category" : "production" 
+"research" : "IMT_Extract_1.3" 
+} 

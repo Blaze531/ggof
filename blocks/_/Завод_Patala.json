@@ -1,0 +1,24 @@
+{
+"type": "GenericSmelter",
+"name": "Завод ракет Patala",
+"description": "Производит ракеты Patala",
+"health": 400,
+"itemCapacity": 10,
+"outputItem": {"item": "Patala", "amount": 1},
+"size": 2,
+"hasPower": true,
+"hasLiquids": false,
+"hasItems": true,
+"craftTime": 30,
+"updateEffect": "smoke",
+"consumes": {"power": 3, "items": 
+{"items": [
+{ "item": "silicon", "amount": 5 }
+{ "item": "Intelli_Jet", "amount": 5 }]}} ,
+"requirements": [
+{ "item": "titanium", "amount": 120 },
+{ "item": "silicon", "amount": 90 },
+{ "item": "Электроника", "amount": 85 },],
+"category": "crafting",
+"research" : "Завод_Intelli_Jet" 
+}

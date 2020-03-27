@@ -1,0 +1,24 @@
+{
+"type": "GenericSmelter",
+"name": "Завод изотопный газов" ,
+"description": "Использует воду и энергию для создания изотопных газов",
+"health": 360,
+"liquidCapacity": 10,
+"outputLiquid": {"liquid": "Изотопный_газ", "amount": 10},
+"size": 3,
+"hasPower": true,
+"hasLiquids": true,
+"hasItems": true,
+"craftTime": 160.0
+"updateEffect": "smoke",
+"consumes" : {	"liquid": {
+			"liquid": "water",
+			"amount": 0.3}, "power" : 1.7}, 
+"requirements": [
+{ "item": "Железо", "amount": 175 },
+{ "item": "titanium", "amount": 120 },
+{ "item": "thorium", "amount": 100 },
+{ "item": "metaglass", "amount": 55 }],
+"category": "crafting",
+"research" : "Завод_blasterAmmo" 
+}

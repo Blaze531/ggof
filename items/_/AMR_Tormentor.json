@@ -1,0 +1,12 @@
+{
+"type": "material",
+"name": "AMR Tormentor",
+"description": "После того, как корпорация AMR почти разорилась из-за провальных продаж электронных часов, основатели решили переориентироваться на производство оружия массового поражения. Ход оказался удачным, и AMR Tormentor — отличный выбор для новичков.",
+"color": "#ff0000",
+"radioactivity": 0.2,
+"explosiveness": 1.75,
+"flammability": 0,
+"hardness": "10",
+"cost": 1,
+"alwaysUnlocked": false
+}

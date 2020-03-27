@@ -1,0 +1,27 @@
+{
+"type": "GenericSmelter",
+"name": "Компрессор нованиума",
+"description": "Сжимает нованиум под огромным давлением, чтобы произвести искусственное нованиумное ядро. ",
+"health": 400,
+"itemCapacity": 25,
+"liquidCapacity" : 25
+"outputItem": {"item": "Нованиумное_ядро", "amount": 1},
+"size": 4,
+"hasPower": true,
+"hasLiquids": true,
+"hasItems": true,
+"craftTime": 160,
+"updateEffect": "smoke",
+"consumes": {"power": 1.35, "items": 
+{"items": [
+{ "item": "Нованиум", "amount": 25 }]}, 
+"liquid" : {"liquid" : "water", "amount" : 0.12} } ,
+"requirements": [
+{ "item": "titanium", "amount": 80}
+{ "item": "silicon", "amount": 70}
+{ "item": "Железное_ядро", "amount": 65 },
+{ "item": "Титановое_ядро", "amount": 45 }
+{ "item": "Нованиумное_ядро", "amount": 5}],
+"category": "crafting",
+"research" : "Компрессор_титана" 
+}

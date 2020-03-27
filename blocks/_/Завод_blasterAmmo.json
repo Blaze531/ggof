@@ -1,0 +1,21 @@
+{
+"type": "GenericSmelter",
+"name": "Завод blasterAmmo",
+"description": "Производит blasterAmmo",
+"health": 400,
+"itemCapacity": 30,
+"outputItem": {"item": "blasterAmmo", "amount": 15},
+"size": 2,
+"hasPower": true,
+"hasLiquids": false,
+"hasItems": true,
+"craftTime": 71,
+"updateEffect": "smoke",
+"consumes": {"power": 4} 
+"requirements": [
+{ "item": "titanium", "amount": 120 },
+{ "item": "silicon", "amount": 95 },
+{ "item": "thorium", "amount": 55 }],
+"category": "crafting",
+"research" : "silicon-smelter" 
+}

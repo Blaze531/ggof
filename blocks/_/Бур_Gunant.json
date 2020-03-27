@@ -1,0 +1,32 @@
+{
+"type": "drill"
+"name": "Бур Gunant" 
+"health" : 1800, 
+"size": 4, 
+"description": "Этот бурильный лазер был сконструирован мидорианским дельцом по имени Gunant Breh. Невероятно мощный прибор, и если он когда-нибудь достигнет рыночной продажи, то вполне может разорить компанию IMT."
+"tier" : "6"
+"drillTime" : 135
+"liqiudsBoostIntensivity" : 1.7
+"itemCapacity" : 10
+"warmupSpeed" : 0.1
+"drillEffect" : "smoke" 
+"rotateSpeed" : 3
+"craftTime": 129
+"requirements" :[
+{"item" : "Железо", "amount" : 35} 
+{"item" : "phase-fabric", "amount" : 35} 
+{"item" : "surge-alloy", "amount" : 65} 
+{"item" : "silicon", "amount" : 145}
+{"item" : "Оричалзин", "amount" : 125} 
+{"item" : "Нованиум", "amount" : 25} 
+] 
+"consumes": {"power": 2.5, 
+"liquid": {
+			"liquid": "water", 
+			"amount": 0.1,
+			"booster": true
+       "optional" : true
+		}} ,
+"category" : "production" 
+"research" : "IMT_Extract_4.0" 
+} 

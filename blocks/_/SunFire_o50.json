@@ -1,0 +1,41 @@
+{
+"type": "ItemTurret",
+"name": "SunFire o50",
+"description": "В ходе разработки SunFire o50, была применена подель реакций водорода в коронарной поверхности звёзд. Создаются сильные магнитные поля таким образом, что результирующая фоторадиация может быть связана в энергетические пучки громадной мощности. Одним словом: Горячо!",
+"targetAir": true,
+"targetGround": true,
+"health": 2000,
+"size": 4,
+"inaccuracy": 1,
+"reload": 10,
+"shots": 1,
+"range": 400,
+"burstSpacing": 10,
+"ammo": {
+"Бочка_изотопного_газа": {
+"speed": 4,
+"damage": 750,
+"bulletWidth": 8,
+"bulletHeight": 320,
+"shootEffect": "shootSmall",
+"smokeEffect": "none",
+"ammoMultiplier": 1
+"frontColor" : "#ffa000" 
+"backColor" : "#ffa000" 
+"lifetime" : 130,
+"splashDamage": 250, 
+"splashDamageRadius" : 30, 
+"homingRange" : 10
+"homingPower" : 1
+},},
+"requirements": [
+{ "item": "titanium", "amount": 800},
+{ "item": "Золото", "amount": 400},
+{ "item": "surge-alloy", "amount": 250}
+{ "item": "Оричалзин", "amount": 170}
+{ "item": "Нованиум", "amount": 90}
+],
+"category": "turret",
+"shootSound": ""
+"research": "MaxHeat_o20"
+}

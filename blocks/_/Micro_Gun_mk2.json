@@ -1,0 +1,32 @@
+{
+"type": "ItemTurret",
+"name": "Micro Gun mk2",
+"description": "Даже спустя 2000 лет после изобретения баллистическое оружие не сошло со сцены. Micro Gun из этой категории — удачное вложение средств." ,
+"targetAir": true,
+"targetGround": true,
+"health": 460,
+"size": 1,
+"inaccuracy": 12,
+"reload": 10,
+"shots": 3,
+"range": 100,
+"burstSpacing": 1,
+"ammo": {
+"copper": {
+"speed": 5,
+"damage": 5,
+"bulletWidth": 4,
+"bulletHeight": 6,
+"shootEffect": "smoke",
+"smokeEffect": "none",
+"ammoMultiplier": 2
+"lifetime" : 70,
+},},
+"requirements": [
+{ "item": "copper", "amount": 75},
+{ "item": "Железо", "amount": 20}
+],
+"category": "turret",
+"shootSound": ""
+"research": "Micro_Gun_mk1"
+}

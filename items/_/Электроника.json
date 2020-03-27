@@ -1,0 +1,12 @@
+{
+"type": "material",
+"name": "Электроника",
+"description": "Электроника сегодня представлена в основном квантовыми и нано - компонентами. ",
+"color": "#41bd28",
+"radioactivity": 0,
+"explosiveness": 0,
+"flammability": 0,
+"hardness": 10,
+"cost": 1.5,
+"alwaysUnlocked": false
+}

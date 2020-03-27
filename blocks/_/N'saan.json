@@ -1,0 +1,36 @@
+{
+"type": "ItemTurret",
+"name": "N'saan",
+"description": "N'saan на языке Восск означает короткий клинок и является паркетным образцом бластерного оружия.",
+"targetAir": true,
+"targetGround": true,
+"health": 350,
+"size": 1,
+"inaccuracy": 10,
+"reload": 40,
+"shots": 1,
+"range": 120,
+"burstSpacing": 10,
+"ammo": {
+"blasterAmmo": {
+"speed": 6,
+"damage": 15,
+"splashDamage" : 45,
+"splashDamageRadius" : 32,
+"bulletWidth": 8,
+"bulletHeight": 8,
+"shootEffect": "shootSmall",
+"smokeEffect": "none",
+"ammoMultiplier": 5
+"frontColor" : "#74abd6" 
+"backColor" : "#74abd6" 
+"lifetime" : 90,
+},},
+"requirements": [
+{ "item": "titanium", "amount": 25},
+{ "item": "silicon", "amount": 15},
+],
+"category": "turret",
+"shootSound": ""
+"research": "duo"
+}

@@ -1,0 +1,24 @@
+{
+"type": "GenericSmelter",
+"name": "Завод запчастей",
+"description": "Производит запчасти разных видов",
+"health": 400,
+"itemCapacity": 10,
+"outputItem": {"item": "Запчасти", "amount": 1},
+"size": 2,
+"hasPower": true,
+"hasLiquids": false,
+"hasItems": true,
+"craftTime": 30,
+"updateEffect": "smoke",
+"consumes": {"power": 1.2, "items": 
+{"items": [
+{ "item": "Железо", "amount": 1 }
+{ "item": "lead", "amount": 1 }]}} ,
+"requirements": [
+{ "item": "titanium", "amount": 70 },
+{ "item": "silicon", "amount": 65 },
+{ "item": "Железо", "amount": 45 }],
+"category": "crafting",
+"research" : "silicon-smelter" 
+}

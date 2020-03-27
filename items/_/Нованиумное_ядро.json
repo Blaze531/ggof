@@ -1,0 +1,12 @@
+{
+"type": "material",
+"name": "Нованиумное ядро ",
+"description": "Ядро нованиумного астеройда, добытого из самой системы Ginoya с пояса астеройдов возле планеты Naneroh или синтезированного из нованиума. ",
+"color": "#0000ff",
+"radioactivity": 6,
+"explosiveness": 0,
+"flammability": 0,
+"hardness": "9",
+"cost": 10,
+"alwaysUnlocked": false
+}

@@ -1,0 +1,28 @@
+{
+	"name": "Kinzer RS",
+	"description": "Космический корабль из игры GoF2 ",
+	"speed": 2,
+	"buildPower": 1.5,
+	"engineColor": "666495",
+	"flying": true,
+	"health": 4000,
+	"weaponOffsetX": 1,
+	"weaponOffsetY": 1,
+	"weapon": {
+		"name": "Kinzer",
+		"length": 3.5,
+		"reload": 15,
+		"alternate": true,
+		"bullet": {
+			"speed": 7,
+			"damage": 1000,
+			"bulletWidth": 10,
+			"bulletHeight": 15,
+			"frontColor": "#e6ca2e", 
+			"backColor": "#e6ca2e", 
+			"shootEffect": "shootBig"
+			"bullet": "meltdownLaser",
+			"despawnEffect": "none"
+		}
+	}
+}

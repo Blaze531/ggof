@@ -1,0 +1,6 @@
+{
+"name": "Железная руда",
+"type": "OreBlock",
+"itemDrop": "Железо",
+"oreDefault": true
+}

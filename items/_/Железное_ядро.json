@@ -1,0 +1,12 @@
+{
+"type": "material",
+"name": "Железное ядро ",
+"description": "Более сжатое, прочное железо. Его можно получить при добычи крупных астеройдов или при синтезировании. ",
+"color": "#8a8a8a",
+"radioactivity": 0.2,
+"explosiveness": 0,
+"flammability": 0,
+"hardness": "7",
+"cost": 3,
+"alwaysUnlocked": false
+}

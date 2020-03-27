@@ -1,0 +1,12 @@
+{
+"type": "material",
+"name": "Jet",
+"description": "Ракеты без системы наведения лучше всего использовать на короткой дистанции. Реактивная ракета – сочетание доступности и мощи, которое стоит иметь на борту на всякий пожарный случай.",
+"color": "#ff0000",
+"radioactivity": 0,
+"explosiveness": 1,
+"flammability": 0,
+"hardness": "10",
+"cost": 1,
+"alwaysUnlocked": false
+}

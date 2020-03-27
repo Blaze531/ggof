@@ -1,0 +1,6 @@
+{
+"name": "Золотая руда",
+"type": "OreBlock",
+"itemDrop": "Золото",
+"oreDefault": true
+}

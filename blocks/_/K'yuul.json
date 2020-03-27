@@ -1,0 +1,30 @@
+{
+"type": "drill"
+"name": "K'yuul" 
+"health" : 780, 
+"size": 3, 
+"description": "Некоторое время назад Восски вывели на рынок свой бурильный лазер, который назвали просто K'yuul, что значит сверло на языке Восск. Лазер обладает высокой точностью, хотя постоянная потребность в калибровке снижает выработку руды. "
+"tier" : "5"
+"drillTime" : 200
+"liqiudsBoostIntensivity" : 1.7
+"itemCapacity" : 10
+"warmupSpeed" : 0.1
+"drillEffect" : "smoke" 
+"rotateSpeed" : 3
+"craftTime": 129
+"requirements" :[
+{"item" : "Электроника", "amount" : 90} 
+{"item" : "Оричалзин", "amount" : 75} 
+{"item" : "silicon", "amount" : 55}
+{"item" : "titanium", "amount" : 45} 
+] 
+"consumes": {"power": 1.15, 
+"liquid": {
+			"liquid": "water", 
+			"amount": 0.1,
+			"booster": true
+       "optional" : true
+		}} ,
+"category" : "production" 
+"research" : "IMT_Extract_2.7" 
+} 

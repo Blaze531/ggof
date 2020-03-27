@@ -1,0 +1,12 @@
+{
+"type": "material",
+"name": "Liberator",
+"description": " Смертельная ракета, которой можно управлять после запуска. Liberator невероятно быстра и маневренна, и в то же время идеальна для уничтожения малых групп противника с большой дистанции.",
+"color": "#000000",
+"radioactivity": 4.5,
+"explosiveness": 13,
+"flammability": 0,
+"hardness": "10",
+"cost": 1,
+"alwaysUnlocked": false
+}

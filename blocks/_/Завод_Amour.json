@@ -1,0 +1,24 @@
+{
+"type": "GenericSmelter",
+"name": "Завод ракет Amour",
+"description": "Производит ракеты Amour",
+"health": 400,
+"itemCapacity": 10,
+"outputItem": {"item": "Amour", "amount": 1},
+"size": 2,
+"hasPower": true,
+"hasLiquids": false,
+"hasItems": true,
+"craftTime": 30,
+"updateEffect": "smoke",
+"consumes": {"power": 2, "items": 
+{"items": [
+{ "item": "titanium", "amount": 1 }
+{ "item": "Электроника", "amount": 1 }]}} ,
+"requirements": [
+{ "item": "Золото", "amount": 90 },
+{ "item": "silicon", "amount": 90 },
+{ "item": "Нованиум", "amount": 15 }],
+"category": "crafting",
+"research" : "Завод_Jet" 
+}

@@ -1,0 +1,12 @@
+{
+"type": "material",
+"name": "Запчасти",
+"description": "Болты, гайки, цепочки, шестеренки, шайбы...Все, что используется для скрепления деталей.",
+"color": "#ffa500",
+"radioactivity": 0,
+"explosiveness": 0,
+"flammability": 0,
+"hardness": "10",
+"cost": 3,
+"alwaysUnlocked": false
+}

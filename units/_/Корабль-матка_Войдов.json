@@ -1,0 +1,35 @@
+{
+    "type": "wraith",
+    "name": "Корабль-матка Войдов",
+    "description" : "Корабль-Матка Войдов - это огромная станция, расположенная в Пространстве Войдов и являющаяся их главной базой. Также, для Войдов станция является единственным способом создания червоточин. Пристыковаться к Кораблю-Матке невозможно, и сама по себе станция никакой практической пользы не несёт. Так как Войды не вылетали из самой станции, а из ниоткуда, то можно предположить что станция имеет свой собственный разум." 
+    "health": 2147483
+    "mass": 100000.0,
+    "speed": 0.001,
+    "maxVelocity": 1.0,
+    "drag": 0.01,
+    "shootCone": 40.0,
+    "flying": true,
+    "engineOffset": 1,
+    "engineSize": 1,
+    "weapon": {
+        "length": 3.0,
+        "reload": 40,
+        "width": 10.0,
+        "shots": 1,
+        "inaccuracy": 3.0,
+        "alternate": true,
+        "ejectEffect": "shellEjectSmall",
+        "shootSound": "shoot",
+        		"bullet": {
+			"speed": 7,
+			"damage": 75000
+			"bulletWidth": 10,
+			"bulletHeight": 15,
+			"frontColor": "#9254ff"
+			"backColor": "#9254ff" ,
+			"shootEffect": "shootBig"
+			"bullet": "meltdownLaser",
+			"despawnEffect": "none" 
+		} 
+    }
+}

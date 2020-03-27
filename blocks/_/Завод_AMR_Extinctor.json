@@ -1,0 +1,26 @@
+{
+"type": "GenericSmelter",
+"name": "Завод ракет AMR Extinctor",
+"description": "Производит ракеты AMR Extinctor",
+"health": 400,
+"itemCapacity": 10,
+"outputItem": {"item": "AMR_Extinctor", "amount": 1},
+"size": 2,
+"hasPower": true,
+"hasLiquids": false,
+"hasItems": true,
+"craftTime": 30,
+"updateEffect": "smoke",
+"consumes": {"power": 3, "items": 
+{"items": [
+{ "item": "titanium", "amount": 5 }
+{ "item": "blast-compound", "amount": 3 },
+{ "item": "AMR_Oppressor", "amount": 1 }]}} ,
+"requirements": [
+{ "item": "titanium", "amount": 100 },
+{ "item": "silicon", "amount": 100 },
+{ "item": "Железо", "amount": 100 },
+{ "item": "thorium", "amount": 90 }],
+"category": "crafting",
+"research" : "Завод_AMR_Oppressor" 
+}

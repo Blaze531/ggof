@@ -1,0 +1,12 @@
+{
+"type": "material",
+"name": "Кристаллы Войд",
+"description": "Очень красивые сверкающие кристаллы. Если как следует присмотреться, иногда кажется, что видишь в таком всю вселенную...",
+"color": "#8b00ff",
+"radioactivity": 10,
+"explosiveness": 0.01,
+"flammability": 0,
+"hardness": "6",
+"cost": 2.5,
+"alwaysUnlocked": false
+}

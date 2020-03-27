@@ -1,0 +1,38 @@
+{
+"type": "ItemTurret",
+"name": "MaxHeat o20",
+"description": "Только MaxHeat содержит изотопы атомов из звёзд 12 различных систем. Их взаимодействие возбуждается электрическим разрядом, что приводит к цепной реакции термоядерного синтеза, делая возможной беспрецедентную скорострельность.",
+"targetAir": true,
+"targetGround": true,
+"health": 700,
+"size": 3,
+"inaccuracy": 1,
+"reload": 55,
+"shots": 3,
+"range": 400,
+"burstSpacing": 10,
+"ammo": {
+"Бочка_изотопного_газа": {
+"speed": 3,
+"damage": 300,
+"splashDamage": 100, 
+"splashDamageRadius" : 40, 
+"bulletWidth": 8,
+"bulletHeight": 320,
+"shootEffect": "shootSmall",
+"smokeEffect": "none",
+"ammoMultiplier": 1
+"frontColor" : "#ffa000" 
+"backColor" : "#ffa000" 
+"lifetime" : 130,
+},},
+"requirements": [
+{ "item": "titanium", "amount": 300},
+{ "item": "Золото", "amount": 210},
+{ "item": "surge-alloy", "amount": 160}
+{ "item": "Оричалзин", "amount": 120}
+],
+"category": "turret",
+"shootSound": ""
+"research": "ReHeat_o10"
+}

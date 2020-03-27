@@ -1,0 +1,42 @@
+{
+"type": "ItemTurret",
+"name": "SuperNova o100",
+"description": "Для создания SuperNova o100 использовался ядерный синтез нованиума при условиях горения Сверхновой звезды Ginoya и эссенция кристаллов Войд. Такая нованиумно-кристальная смесь помещается в водородную камеру и затем огромные температуры зажигают искусственную сверхновую. Именно она находится в центре SuperNova o100. Эта звезда никогда не исчезнет, потому что может забирать материю из чёрных дыр, находящихся в огромном отдалении с помощью эссенции Войд. Выстрелы SuperNova o100 - это потуберанец искусственной Сверхновой. ",
+"targetAir": true,
+"targetGround": true,
+"health": 3800,
+"size": 4,
+"inaccuracy": 1,
+"reload": 10, 
+"maxAmmo" : 100
+"shots": 1,
+"range": 1600,
+"burstSpacing": 10,
+"ammo": {
+"Кристаллы_Войд": {
+"speed": 4,
+"damage": 10000,
+"bulletWidth": 12,
+"bulletHeight": 220
+"shootEffect": "shootSmall",
+"smokeEffect": "none",
+"ammoMultiplier": 1
+"frontColor" : "#ffa000" 
+"backColor" : "#ffa000" 
+"lifetime" : 3600,
+"splashDamage": 5000, 
+"splashDamageRadius" : 320
+"homingRange" : 1000
+"homingPower" : 1
+},},
+"requirements": [
+{ "item": "titanium", "amount": 999},
+{ "item": "Нованиум", "amount": 999},
+{ "item": "Кристаллы_Войд", "amount": 700}
+{ "item": "Оричалзин", "amount": 300}
+{ "item": "Нованиумное_ядро", "amount": 200}
+],
+"category": "turret",
+"shootSound": ""
+"research": "SunFire_o50"
+}

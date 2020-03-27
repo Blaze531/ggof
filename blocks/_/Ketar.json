@@ -1,0 +1,20 @@
+{
+  "name": "Ketar",
+  "description": "Этот восстановительный робот может ремонтировать броню и обшивку вашего корабля прямо в космосе. Очень удобно для тех, кто постоянно ведёт боевые действия.",
+  "type": "mendProjector",
+  "health": 650,
+  "size": 2,
+  "reload" : 45,
+  "range" : 180,
+  "healPercent" : 3, 
+  "phaseBoost" : 0,
+  "phaseRangeBoost" : 0,
+  "consumes" : {"power" : 3}
+  "requirements": [
+        { "item": "titanium", "amount": 70 },
+	      { "item": "silicon", "amount": 40 },
+        { "item": "Электроника", "amount": 36 }
+	],
+  "category": "effect",
+"research" : "mend-projector" 
+}

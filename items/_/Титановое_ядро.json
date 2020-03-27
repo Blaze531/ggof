@@ -1,0 +1,12 @@
+{
+"type": "material",
+"name": "Титановое ядро",
+"description": "Титановое ядро - это ядро титанового астероида, имеющее уникальные свойства ",
+"color": "#0000ff",
+"radioactivity": 0.9,
+"explosiveness": 0,
+"flammability": 0,
+"hardness": "8",
+"cost": 10,
+"alwaysUnlocked": false
+}

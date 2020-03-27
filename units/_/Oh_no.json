@@ -1,0 +1,21 @@
+{
+"type" : "crawler" 
+"name" : "Oh No" 
+"description" : " Oooohhhh nnnooo" 
+            "maxVelocity" : 2
+            "speed" : 0.2
+            "drag" : 0.4
+            "hitsize" : 8
+            "mass" : 1.75
+            "health": 180
+            "weapon" : {
+                "reload" : 12
+                "bullet": {
+                    "shootType" : "BombBulletType" 
+                    "lifetime": 30
+                    "speed" : 1
+                    "splashDamageRadius": 80
+                    "instantDisappear" : true
+                    "splashDamage" : 6000
+                    "killShooter" : true
+                }}} 

@@ -1,0 +1,19 @@
+{
+  "name": "T'yol",
+  "description": "Супер прочная броня элитного подразделения Империи Восск . Эти бронепластины - гордость восскской промышленности. Она обеспечивает самую высокую степень защиты на галактическом рынке.",
+  "type": "mendProjector",
+  "health": 9500,
+  "size": 2,
+  "reload" : 45,
+  "range" : 10,
+  "healPercent" : 2, 
+  "phaseBoost" : 0,
+  "phaseRangeBoost" : 0,
+  "requirements": [
+        { "item": "Оричалзин", "amount": 24 },
+	      { "item": "Железо", "amount": 24 },
+        { "item": "Электроника", "amount": 24 }
+	],
+  "category": "defense",
+"research" : "D'iol" 
+}

@@ -1,0 +1,7 @@
+{
+"type" : "BasicBulletType" 
+"BulletSprite" : "GoF2-patala_bullet"
+"speed" : 6
+"splashDamage" : 130
+"splashDamageRadius" : 24
+} 

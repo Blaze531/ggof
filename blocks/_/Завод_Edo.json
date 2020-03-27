@@ -1,0 +1,24 @@
+{
+"type": "GenericSmelter",
+"name": "Завод ракет Edo",
+"description": "Производит ракеты Edo",
+"health": 400,
+"itemCapacity": 10,
+"outputItem": {"item": "Edo", "amount": 2},
+"size": 2,
+"hasPower": true,
+"hasLiquids": false,
+"hasItems": true,
+"craftTime": 30,
+"updateEffect": "smoke",
+"consumes": {"power": 1.6, "items": 
+{"items": [
+{ "item": "Запчасти", "amount": 1 }
+{ "item": "silicon", "amount": 1 }]}} ,
+"requirements": [
+{ "item": "titanium", "amount": 70 },
+{ "item": "silicon", "amount": 65 },
+{ "item": "thorium", "amount": 45 }],
+"category": "crafting",
+"research" : "silicon-smelter" 
+}

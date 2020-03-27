@@ -1,0 +1,31 @@
+{
+	"name": "Aegir",
+	"description": "Космический корабль из игры GoF2 ",
+	"speed": 1.9,
+	"buildPower": 1.5,
+	"engineColor": "666495",
+  "engineOffset": 14
+	"flying": true,
+	"health": 2100,
+	"weaponOffsetX": 1,
+	"weaponOffsetY": 1,
+	"weapon": {
+		"name": "Nevil blaster",
+		"length": 5
+		"reload": 35,
+		"alternate": true,
+		"bullet": {
+			"speed": 7,
+			"damage": 650,
+			"bulletWidth": 10,
+			"bulletHeight": 15,
+			"frontColor": "#2878e8",
+			"backColor": "#2878e8", 
+			"shootEffect": "shootBig"
+			"bullet": "meltdownLaser",
+			"despawnEffect": "none" 
+       "splashDamage" : 150
+       "splashDamageRadius" : 10
+		}
+	}
+}

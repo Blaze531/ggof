@@ -1,0 +1,34 @@
+{
+	"type": "PowerTurret",
+	"name": "М6 А4 «Енот» ",
+	"description": "M6 A4 «Енот» — самый разрушительный лазерный луч во всей галактике. Если установить несколько таких смертельных орудий на свой корабль, вы сможете разнести на атомы соперников ещё до того, как они приблизятся к вам на дистанцию выстрела. В большинстве случаев достаточного одного выстрела M6 A4 «Енот», чтобы превратить цель в космическую пыль.",
+	"targetAir": true,
+	"targetGround": true,
+	"health": 2100,
+	"size": 3,
+	"inaccuracy": 1,
+	"reload": 1,
+	"shots": 1,
+	"range": 600,
+	"powerUse": 18,
+	"shootType": {
+	    "type": "LiquidBulletType",
+		"liquid": "Лазерная_жидкость",
+		"knockback": 88,
+		"damage": 1800,
+		"shootEffect": "none",
+		"smokeEffect": "shootSmallSmoke",
+		"ammoMultiplier": 1,
+    "splashDamage" : 200
+    "splashDamageRadius" : 10
+     "lifetime" : 420
+}
+	"requirements": [{ "item": "titanium", "amount": 400 },
+		{ "item": "surge-alloy", "amount": 235 }
+		{ "item": "Нованиум", "amount": 200 }
+		{ "item": "Золото", "amount": 140 }
+		{ "item": "Оричалзин", "amount": 120 }	],
+	"category": "turret"
+	"shootSound": "spray"
+   "research" : "meltdown" 
+} 

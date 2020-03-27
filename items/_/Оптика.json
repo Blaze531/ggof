@@ -1,0 +1,12 @@
+{
+"type": "material",
+"name": "Оптика",
+"description": "Оптические компоненты незаменимы при передаче данных,спектальном анализе,для медицинских приборов и в прочих других сферах.",
+"color": "#000000",
+"radioactivity": 0,
+"explosiveness": 0,
+"flammability": 0,
+"hardness": "10",
+"cost": 1.2,
+"alwaysUnlocked": false
+}

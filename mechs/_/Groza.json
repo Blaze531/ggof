@@ -1,0 +1,33 @@
+{
+	"name": "Groza",
+	"description": "Groza может и не выглядит многообещающе, но это хорошо оборудованный и весьма грозный корабль. Вместительный грузовой отсек делает его выбором охотников за удачей.",
+	"speed": 1.9,
+	"buildPower": 1.5,
+	"engineColor": "666495",
+  "engineOffset": 14
+   "drillPower" : 3
+   "mineSpeed" : 1.75
+	"flying": true,
+	"health": 2100,
+	"weaponOffsetX": 1,
+	"weaponOffsetY": 1,
+	"weapon": {
+		"name": "Groza blaster",
+		"length": 5
+		"reload": 35,
+		"alternate": true,
+		"bullet": {
+			"speed": 7,
+			"damage": 65,
+			"bulletWidth": 10,
+			"bulletHeight": 15,
+			"frontColor": "#cf9430",
+			"backColor": "#cf9430", 
+			"shootEffect": "shootBig"
+			"bullet": "meltdownLaser",
+			"despawnEffect": "none" 
+       "splashDamage" : 15
+       "splashDamageRadius" : 10
+		}
+	}
+}

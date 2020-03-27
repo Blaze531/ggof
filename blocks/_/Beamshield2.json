@@ -1,0 +1,30 @@
+{
+	"name": "Beamshield II",
+	"description": "Вязкое поле и отличная скорость регенерации делают этот щит весьма популярным. Не удивительно, за такую-то цену.",
+	"type": "ForceProjector", 
+	"health": 980,
+	"size": 3,
+	"phaseUseTime": 800, 
+	"phaseRadiusBoost":	160, 
+	"radius": 125, 
+	"breakage":	50, 
+	"cooldownNormal": 1, 
+	"cooldownLiquid": 2, 
+	"cooldownBrokenBase": 0.1, 
+	"basePowerDraw	": 8.0, 
+	"canOverdrive": true, 
+	"consumes": {
+		"power": 1.2
+		"items": {
+			"items": [ { "amount": 1, "item": "thorium" } ],
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+     { "item": "Электроника", "amount": 150 },
+     { "item": "silicon", "amount": 80 },
+		{ "item": "thorium", "amount": 60 },
+	],
+	"category": "effect"
+}

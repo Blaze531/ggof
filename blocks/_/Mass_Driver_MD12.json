@@ -1,0 +1,71 @@
+{
+"type": "ItemTurret",
+"name": "Mass Driver MD 12",
+"description": "Mass Driver MD 12 является самым смертельным баллистическим оружием, которое можно найти на рынке в свободном доступе. Кинетическая энергия боеголовок ускорителя масс увеличена за счет искусственного покрытия, которое снаряды получают непосредственно перед тем как быть выстрелянными. Благодаря этой процедуре орудие наносит огромный урон. ",
+"targetAir": true,
+"targetGround": true,
+"health": 460,
+"size": 3,
+"inaccuracy": 4,
+"reload": 0.5,
+"shots": 2,
+"range": 300,
+"burstSpacing": 0.3
+"ammo": {
+"thorium": {
+"speed": 5,
+"damage": 25,
+"bulletWidth": 4,
+"bulletHeight": 6,
+"shootEffect": "smoke",
+"smokeEffect": "none",
+"ammoMultiplier": 10
+"lifetime" : 60,
+}, 
+"surge-alloy": {
+"speed": 5,
+"damage": 80,
+"bulletWidth": 4,
+"bulletHeight": 6,
+"shootEffect": "smoke",
+"smokeEffect": "none",
+"ammoMultiplier": 15
+"lifetime" : 60,
+},
+"blast-compound": {
+"speed": 5,
+"bulletWidth": 4,
+"bulletHeight": 6,
+"shootEffect": "smoke",
+"smokeEffect": "none",
+"ammoMultiplier": 10
+"lifetime" : 60,
+"splashDamage" : 75
+"splashDamageRadius" : 15
+},
+"Нованиумное_ядро": {
+"speed": 5,
+"damage": 1500,
+"bulletWidth": 4,
+"bulletHeight": 6,
+"shootEffect": "smoke",
+"smokeEffect": "none",
+"lifetime" : 60
+"ammoMultiplier": 25
+"splashDamage" : 150
+"splashDamageRadius" : 35
+}, 
+},
+"requirements": [
+{ "item": "titanium", "amount": 300},
+{ "item": "thorium", "amount": 210},
+{ "item": "silicon", "amount": 200}, 
+{ "item": "Электроника", "amount": 160}, 
+{ "item": "surge-alloy", "amount": 110}, 
+{ "item": "Оричалзин", "amount": 65}
+{ "item": "Золото", "amount": 45}
+],
+"category": "turret",
+"shootSound": ""
+"research": "Пушка_Scram"
+}

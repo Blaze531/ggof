@@ -1,0 +1,30 @@
+{
+	"name": "Антиматерный щит",
+	"description": "Щиты из анти-материи находились в разработке в течении длительного времени, но стали готовы к запуску к массовому производствулишь сейчас, благодаря прорыву в стабилизации поля. Инвесторам не пришлось радоваться успеху, так как чертежи были выкрадены спустя пару дней после составления. Ходят слухи что сеть торгашей-нелегалов сейчас как-раз пытается сбыть эти схемы.",
+	"type": "ForceProjector", 
+	"health": 980,
+	"size": 3,
+	"phaseUseTime": 800, 
+	"phaseRadiusBoost":	160, 
+	"radius": 180, 
+	"breakage":	5000, 
+	"cooldownNormal": 1, 
+	"cooldownLiquid": 2, 
+	"cooldownBrokenBase": 0.13, 
+	"basePowerDraw	": 8.0, 
+	"canOverdrive": true, 
+	"consumes": {
+		"power": 7
+		"items": {
+			"items": [ { "amount": 1, "item": "Нованиум" } ],
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+     { "item": "Электроника", "amount": 200 },
+     { "item": "surge-alloy", "amount": 110 },
+		{ "item": "thorium", "amount": 50 },
+	],
+	"category": "effect"
+}

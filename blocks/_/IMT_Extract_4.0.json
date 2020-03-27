@@ -1,0 +1,31 @@
+{
+"type": "drill"
+"name": "IMT Extract 4.0 X" 
+"health" : 1800, 
+"size": 4, 
+"description": "IMT – бесспорный монополист в производстве продуктов для лазерного бурения и поставляет широкий ассортимент продуктов, удовлетворяющих любым потребностям. Свежая модель 4.0x Extract – лучший бурильный лазер, который только можно купить."
+"tier" : "5"
+"drillTime" : 185
+"liqiudsBoostIntensivity" : 1.7
+"itemCapacity" : 10
+"warmupSpeed" : 0.1
+"drillEffect" : "smoke" 
+"rotateSpeed" : 3
+"craftTime": 129
+"requirements" :[
+{"item" : "Железо", "amount" : 110} 
+{"item" : "thorium", "amount" : 100} 
+{"item" : "silicon", "amount" : 75}
+{"item" : "titanium", "amount" : 75} 
+{"item" : "Титановое_ядро", "amount" : 10} 
+] 
+"consumes": {"power": 1.6, 
+"liquid": {
+			"liquid": "water", 
+			"amount": 0.1,
+			"booster": true
+       "optional" : true
+		}} ,
+"category" : "production" 
+"research" : "IMT_Extract_2.7" 
+} 

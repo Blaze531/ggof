@@ -1,0 +1,24 @@
+{
+"type": "GenericSmelter",
+"name": "Завод ракет Intelli Jet",
+"description": "Производит ракеты Intelli Jet",
+"health": 400,
+"itemCapacity": 10,
+"outputItem": {"item": "Intelli_Jet", "amount": 2},
+"size": 2,
+"hasPower": true,
+"hasLiquids": false,
+"hasItems": true,
+"craftTime": 30,
+"updateEffect": "smoke",
+"consumes": {"power": 1.6, "items": 
+{"items": [
+{ "item": "Jet", "amount": 2 }
+{ "item": "silicon", "amount": 2 }]}} ,
+"requirements": [
+{ "item": "Оричалзин", "amount": 90 },
+{ "item": "silicon", "amount": 90 },
+{ "item": "Железо", "amount": 85 }],
+"category": "crafting",
+"research" : "Завод_Jet" 
+}

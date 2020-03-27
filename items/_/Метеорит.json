@@ -1,0 +1,12 @@
+{
+"type": "material",
+"name": "Метеорит",
+"description": "Метеорит",
+"color": "#fffffff",
+"radioactivity": 0,
+"explosiveness": 0,
+"flammability": 0,
+"hardness": "3",
+"cost": 2,
+"alwaysUnlocked": false
+}

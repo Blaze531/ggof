@@ -1,0 +1,29 @@
+{
+"type": "GenericSmelter",
+"name": "Завод ракет AMR Liberator",
+"description": "Производит ракеты AMR Liberator",
+"health": 400,
+"itemCapacity": 10,
+"outputItem": {"item": "Liberator", "amount": 1},
+"size": 3,
+"hasPower": true,
+"hasLiquids": false,
+"hasItems": true,
+"craftTime": 30,
+"updateEffect": "smoke",
+"consumes": {"power": 3, "items": 
+{"items": [
+{ "item": "silicon", "amount": 5 }
+{ "item": "Электроника", "amount": 4 }
+{ "item": "blast-compound", "amount": 3 },
+{ "item": "Нованиум", "amount": 1 }
+{ "item": "AMR_Extinctor", "amount": 1 }]}} ,
+"requirements": [
+{ "item": "titanium", "amount": 155 },
+{ "item": "silicon", "amount": 150 },
+{ "item": "Оричалзин", "amount": 90 },
+{ "item": "Нованиум", "amount": 35 }
+{ "item": "thorium", "amount": 90 }],
+"category": "crafting",
+"research" : "Завод_AMR_Extinctor" 
+}
